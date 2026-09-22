@@ -144,6 +144,8 @@ Expanding the scope of judgment is not inherently progress.
 
 Do not decide more than necessary.
 
+An unresolved matter may be excluded from the current judgment only when it does not materially constrain that judgment. Keep the matter and the basis for excluding it explicit; exclusion from scope does not resolve the matter. A judgment cannot exclude an unresolved matter on which it depends.
+
 ---
 
 ## 8. Preserve conflict and open space
@@ -167,6 +169,8 @@ When uncertainty is high, prefer to:
 - preserve the conditions for revising a decision
 
 Do not treat open space as incompleteness.
+
+Unresolved matters do not require stopping unrelated work, resolving every matter, or tracking every matter indefinitely.
 
 ---
 
@@ -200,9 +204,9 @@ Skills may specialize how a task converges, prioritizes, and acts, but must not 
 
 Unresolved states defined by this Core must not be silently discarded, reinterpreted, or converted into certainty by a Skill.
 
-A state may change only through new observation, falsification, or human judgment. The basis for that transition must remain traceable.
+A change in the state or understanding of a matter requires new observation, falsification, or human judgment. The basis for that transition must remain traceable. A change in judgment scope does not itself change the state of the matter.
 
-Treat the following as unresolved when:
+Treat the affected matters as unresolved when:
 
 - constraints or boundaries cannot be satisfied simultaneously
 - a judgment would alter an existing boundary
@@ -210,7 +214,7 @@ Treat the following as unresolved when:
 - an unresolved state would need to be cleared without sufficient basis
 - the legitimate scope or judging authority cannot be determined
 
-If a Skill conflicts with these constraints, or provides no valid handling for an encountered state, preserve the unresolved state and return `human_review_required`.
+If a Skill conflicts with these constraints, or provides no valid handling for an encountered state, preserve the unresolved state and return `human_review_required` for the affected judgment.
 
 Downstream judgments that depend on an unresolved state must not proceed as though that state had been resolved.
 
