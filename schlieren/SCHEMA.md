@@ -1,6 +1,6 @@
 # Schlieren v0.1
 
-Schlieren is a Reasoning Schema under Yosuga. [AGENTS.md](../AGENTS.md) is the canonical Core; this document defines responsibility boundaries and handoffs, not additional Core principles.
+Schlieren is a Reasoning Schema under yosuga. [AGENTS.md](../AGENTS.md) is the canonical Core; this document defines responsibility boundaries and handoffs, not additional Core principles.
 
 ```text
 AGENTS.md → Schlieren → Skills / Agent compositions

@@ -1,10 +1,10 @@
-# Yosuga
+# yosuga
 
-**Yosuga is a model-neutral reasoning architecture for working with incomplete, conflicting, or ambiguous information.**
+**yosuga** is a model-neutral reasoning architecture for working with incomplete, conflicting, or ambiguous information.
 
 It provides a shared reasoning core for AI systems without binding that core to a specific model, domain, or runtime.
 
-Yosuga is designed to help AI:
+yosuga is designed to help AI:
 
 - distinguish observation from inference,
 - preserve uncertainty without manufacturing certainty,
@@ -16,7 +16,7 @@ Yosuga is designed to help AI:
 ## Architecture
 
 ```text
-Yosuga
+yosuga
 │
 ├── AGENTS.md
 │   └── Canonical reasoning Core
@@ -33,7 +33,7 @@ Yosuga
 
 ### Core
 
-[`AGENTS.md`](AGENTS.md) defines the model-neutral reasoning constraints shared across Yosuga.
+[`AGENTS.md`](AGENTS.md) defines the model-neutral reasoning constraints shared across yosuga.
 
 It is the canonical source for how observation, uncertainty, hypothesis, judgment scope, conflict, and unresolved matters are handled.
 
@@ -76,7 +76,7 @@ Both runtimes use the repository-root `AGENTS.md` as the shared reasoning Core.
 
 ## Design principle
 
-Yosuga does not aim to resolve every uncertainty or force every discrepancy into a single conclusion.
+yosuga does not aim to resolve every uncertainty or force every discrepancy into a single conclusion.
 
 Its operating principle is:
 
@@ -96,7 +96,7 @@ In practical terms:
 
 Current canonical assets:
 
-- Yosuga Core
+- yosuga Core
 - Schlieren Reasoning Schema
 - 3 canonical Skills
 - Codex runtime integration
